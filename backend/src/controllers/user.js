@@ -11,6 +11,7 @@ const newToken = user => {
 }
 
 exports.signup = (req, res, next) => {
+  console.log(req);
     User.create({
         firstName: req.body.firstName,
         lastName: req.body.lastName,

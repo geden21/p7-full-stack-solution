@@ -95,6 +95,7 @@ export default {
   },
   methods: {
     signup () {
+      console.log( this.input)
       if (
         this.input.firstName != '' &&
         this.input.lastName != '' &&
